@@ -9,7 +9,7 @@ export const reviews = [
     rating: 5,
     text: 'One of the best photography teams. CED – Capture Edit Deliver captured every moment perfectly with great quality and creativity. The team was very professional and friendly. Highly recommended for weddings and events.',
     date: '5 months ago',
-    category: 'Event',
+    category: 'Marriage',
   },
   {
     id: 'review-02',
@@ -17,7 +17,7 @@ export const reviews = [
     rating: 5,
     text: 'Your creativity, editing and dedication helped us showcase our café in the best way possible. Every reel looks more professional and engaging because of your work! 🙌 Highly recommended for anyone looking for quality content creation.',
     date: '1 week ago',
-    category: 'Event',
+    category: 'Birthday',
   },
   {
     id: 'review-03',
@@ -33,7 +33,7 @@ export const reviews = [
     rating: 5,
     text: 'Great work by ced team they have a good patience with lots of good creative thoughts truely appreciated their instant reels within 30 min they have gave us 20 reels it’s truly great',
     date: '5 months ago',
-    category: 'Event',
+    category: 'Special',
   },
   {
     id: 'review-05',

@@ -121,14 +121,14 @@ const Reviews = () => {
 
         {/* Reviews */}
         {hasReviews ? (
-          <div className="mt-5 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-5 grid items-stretch gap-4 md:grid-cols-2 lg:grid-cols-3">
             {reviews.map((review) => (
               <article
                 key={review.id}
-                className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#0a100d] p-6 transition-all duration-500 hover:border-[#c7a76c]/25 sm:p-8"
+                className="group relative flex h-full min-h-[380px] flex-col overflow-hidden rounded-[2rem] border border-white/10 bg-[#0a100d] p-6 transition-all duration-500 hover:border-[#c7a76c]/25 sm:p-8"
               >
-                {/* Quote icon */}
-                <div className="flex items-center justify-between">
+                {/* Quote icon + Rating */}
+                <div className="flex shrink-0 items-center justify-between">
                   <div className="flex h-10 w-10 items-center justify-center rounded-full border border-[#c7a76c]/25 bg-[#c7a76c]/[0.05]">
                     <Quote
                       size={16}
@@ -151,12 +151,14 @@ const Reviews = () => {
                 </div>
 
                 {/* Review text */}
-                <p className="mt-8 min-h-[140px] text-sm leading-7 text-white/60 sm:text-base sm:leading-8">
-                  “{review.text}”
-                </p>
+                <div className="mt-8 h-[160px] overflow-hidden">
+                  <p className="text-sm leading-7 text-white/60 sm:text-base sm:leading-8">
+                    “{review.text}”
+                  </p>
+                </div>
 
                 {/* Reviewer */}
-                <div className="mt-8 flex items-end justify-between border-t border-white/10 pt-5">
+                <div className="mt-auto flex min-h-[58px] items-end justify-between border-t border-white/10 pt-5">
                   <div>
                     <p className="text-sm font-bold text-white">
                       {review.name}
