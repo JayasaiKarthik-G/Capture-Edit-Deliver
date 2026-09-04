@@ -99,14 +99,14 @@ const Navbar = () => {
             className="group flex items-center gap-3 text-left"
             aria-label="Go to CED home"
           >
-            <span className="relative flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/[0.04] transition-all duration-300 group-hover:border-[#c7a76c]/60 group-hover:bg-[#c7a76c]/10">
-              <span className="font-[Montserrat] text-sm font-black tracking-[-0.08em] text-white">
-                C<span className="text-[#c7a76c]">E</span>D
-              </span>
+            {/* Logo */}
+            <img
+              src="/images/ced-logo.png"
+              alt="CED — Capture Edit Deliver"
+              className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.03] sm:h-11"
+            />
 
-              <span className="absolute -right-0.5 -top-0.5 h-1.5 w-1.5 rounded-full bg-[#c7a76c]" />
-            </span>
-
+            {/* Desktop Brand Text */}
             <span className="hidden sm:block">
               <span className="block font-[Montserrat] text-sm font-black uppercase tracking-[0.12em] text-white">
                 CED
@@ -250,7 +250,7 @@ const Navbar = () => {
           </nav>
 
           <div className="mt-auto">
-            <button
+            {/* <button
               type="button"
               onClick={() =>
                 handleNavigation('#contact')
@@ -264,7 +264,7 @@ const Navbar = () => {
                 strokeWidth={2.5}
                 className="transition-transform duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5"
               />
-            </button>
+            </button> */}
 
             <div className="mt-6 flex items-center justify-between">
               <span className="text-[8px] font-semibold uppercase tracking-[0.25em] text-white/25">

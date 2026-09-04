@@ -56,7 +56,7 @@ const Reviews = () => {
 
             <div className="relative flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
               <div className="flex items-center gap-5">
-                <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-2xl border border-[#c7a76c]/30 bg-[#c7a76c]/[0.06]">
+                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-[#c7a76c]/30 bg-[#c7a76c]/[0.06]">
                   <span className="font-[Montserrat] text-2xl font-black text-[#c7a76c]">
                     G
                   </span>
@@ -68,8 +68,8 @@ const Reviews = () => {
                   </p>
 
                   {hasReviews ? (
-                    <div className="mt-2 flex items-center gap-3">
-                      <span className="font-[Montserrat] text-3xl font-black">
+                    <div className="mt-2 flex items-center gap-2">
+                      <span className="font-[Montserrat] text-2xl font-black">
                         {reviewSummary.rating.toFixed(1)}
                       </span>
 

@@ -53,11 +53,11 @@ video {
 }
 
 /* -------------------------------- */
-/* Scrollbar                        */
+/* CED Premium Scrollbar            */
 /* -------------------------------- */
 
 ::-webkit-scrollbar {
-  width: 7px;
+  width: 6px;
 }
 
 ::-webkit-scrollbar-track {
@@ -65,12 +65,18 @@ video {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #26352d;
+  background: linear-gradient(
+    180deg,
+    #8f7445 0%,
+    #c7a76c 50%,
+    #8f7445 100%
+  );
   border-radius: 999px;
+  border: 1px solid #050706;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #c7a76c;
+  background: #d7bd88;
 }
 
 /* -------------------------------- */

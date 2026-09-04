@@ -82,14 +82,12 @@ const ReelCard = ({
 
   return (
     <article
-      className={`group relative overflow-hidden rounded-[1.75rem] bg-[#0a100d] ${
-        featured
-          ? 'aspect-[4/5] md:aspect-[3/4]'
-          : 'aspect-[4/5]'
-      } ${className}`}
+      className={`group relative min-w-0 overflow-hidden rounded-[1.75rem] bg-[#0a100d] 
+        aspect-[9/16] sm:aspect-[4/5] lg:aspect-auto ${className}`}
       onMouseEnter={handleMouseEnter}
       onMouseLeave={handleMouseLeave}
     >
+
       {/* VIDEO */}
       <video
         ref={videoRef}

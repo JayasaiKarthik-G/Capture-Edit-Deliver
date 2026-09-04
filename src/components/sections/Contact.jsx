@@ -73,7 +73,7 @@ const Contact = () => {
 
           <div className="relative grid lg:grid-cols-[1.2fr_0.8fr]">
             {/* Booking side */}
-            <div className="p-7 sm:p-10 lg:p-14">
+            <div className="p-4 sm:p-10 lg:p-14">
               <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[#c7a76c] text-[#050706] shadow-[0_0_40px_rgba(199,167,108,0.15)]">
                 <MessageCircle
                   size={23}
@@ -85,7 +85,7 @@ const Contact = () => {
                 Fastest way to book
               </p>
 
-              <h3 className="mt-4 max-w-2xl font-[Montserrat] text-4xl font-black uppercase leading-[0.88] tracking-[-0.055em] sm:text-5xl md:text-6xl">
+              <h3 className="mt-4 max-w-2xl font-[Montserrat] text-3xl font-black uppercase leading-[0.88] tracking-[-0.055em] sm:text-5xl md:text-6xl">
                 Let's make
                 <br />
                 your moment
@@ -101,13 +101,13 @@ const Contact = () => {
                 package options and help you get booked.
               </p>
 
-              <div className="mt-9">
+              <div className="mt-9 w-full min-w-0">
                 {hasWhatsApp ? (
                   <a
                     href={whatsappUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="group inline-flex w-full items-center justify-center gap-3 rounded-full bg-[#c7a76c] px-7 py-4 text-xs font-bold uppercase tracking-[0.1em] text-[#050706] transition-all duration-300 hover:bg-[#d7bd88] hover:shadow-[0_0_45px_rgba(199,167,108,0.25)] active:scale-[0.98] sm:w-auto"
+                    className="group flex w-full items-center justify-center gap-3 rounded-full bg-[#c7a76c] px-5 py-3 text-xs font-bold uppercase tracking-[0.1em] text-[#050706] transition-all duration-300 hover:bg-[#d7bd88] hover:shadow-[0_0_45px_rgba(199,167,108,0.25)] active:scale-[0.98] sm:w-auto sm:px-7"
                   >
                     <MessageCircle
                       size={17}
@@ -153,25 +153,25 @@ const Contact = () => {
                     href={whatsappUrl}
                     target="_blank"
                     rel="noreferrer"
-                    className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.025] p-4 transition-all duration-300 hover:border-[#c7a76c]/30 hover:bg-white/[0.05]"
+                    className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.025] p-3.5 transition-all duration-300 hover:border-[#c7a76c]/30 hover:bg-white/[0.05] sm:gap-4 sm:p-4"
                   >
-                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-[#c7a76c]">
-                      <Phone size={17} />
+                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-[#c7a76c] sm:h-11 sm:w-11">
+                      <Phone size={16} className="sm:size-[17px]" />
                     </span>
 
-                    <div className="min-w-0">
+                    <div className="min-w-0 flex-1">
                       <p className="text-[8px] font-bold uppercase tracking-[0.2em] text-white/25">
                         WhatsApp
                       </p>
 
-                      <p className="mt-1 truncate text-sm font-semibold text-white/70">
+                      <p className="mt-1 truncate text-[13px] font-semibold text-white/70 sm:text-sm">
                         {siteData.whatsapp.number}
                       </p>
                     </div>
 
                     <ArrowUpRight
-                      size={16}
-                      className="ml-auto shrink-0 text-white/20 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-[#c7a76c]"
+                      size={15}
+                      className="ml-auto shrink-0 text-white/20 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-[#c7a76c] sm:size-[16px]"
                     />
                   </a>
                 )}
@@ -180,25 +180,25 @@ const Contact = () => {
                 {hasEmail && (
                   <a
                     href={`mailto:${siteData.email}`}
-                    className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.025] p-4 transition-all duration-300 hover:border-[#c7a76c]/30 hover:bg-white/[0.05]"
+                    className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.025] p-3.5 transition-all duration-300 hover:border-[#c7a76c]/30 hover:bg-white/[0.05] sm:gap-4 sm:p-4"
                   >
-                    <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-[#c7a76c]">
-                      <Mail size={17} />
+                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-[#c7a76c] sm:h-11 sm:w-11">
+                      <Mail size={16} className="sm:size-[17px]" />
                     </span>
 
-                    <div className="min-w-0">
+                    <div className="min-w-0 flex-1">
                       <p className="text-[8px] font-bold uppercase tracking-[0.2em] text-white/25">
                         Email
                       </p>
 
-                      <p className="mt-1 truncate text-sm font-semibold text-white/70">
+                      <p className="mt-1 truncate text-[13px] font-semibold text-white/70 sm:text-sm">
                         {siteData.email}
                       </p>
                     </div>
 
                     <ArrowUpRight
-                      size={16}
-                      className="ml-auto shrink-0 text-white/20 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-[#c7a76c]"
+                      size={15}
+                      className="ml-auto shrink-0 text-white/20 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-[#c7a76c] sm:size-[16px]"
                     />
                   </a>
                 )}
@@ -208,25 +208,25 @@ const Contact = () => {
                   href={siteData.instagram.url}
                   target="_blank"
                   rel="noreferrer"
-                  className="group flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.025] p-4 transition-all duration-300 hover:border-[#c7a76c]/30 hover:bg-white/[0.05]"
+                  className="group flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[0.025] p-3.5 transition-all duration-300 hover:border-[#c7a76c]/30 hover:bg-white/[0.05] sm:gap-4 sm:p-4"
                 >
-                  <span className="flex h-11 w-11 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-[#c7a76c]">
+                  <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-white/10 bg-white/[0.03] text-[#c7a76c] sm:h-11 sm:w-11">
                     <span className="text-base font-black">@</span>
                   </span>
 
-                  <div className="min-w-0">
+                  <div className="min-w-0 flex-1">
                     <p className="text-[8px] font-bold uppercase tracking-[0.2em] text-white/25">
                       Instagram
                     </p>
 
-                    <p className="mt-1 truncate text-sm font-semibold text-white/70">
+                    <p className="mt-1 truncate text-[13px] font-semibold text-white/70 sm:text-sm">
                       {siteData.instagram.handle}
                     </p>
                   </div>
 
                   <ArrowUpRight
-                    size={16}
-                    className="ml-auto shrink-0 text-white/20 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-[#c7a76c]"
+                    size={15}
+                    className="ml-auto shrink-0 text-white/20 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-[#c7a76c] sm:size-[16px]"
                   />
                 </a>
               </div>

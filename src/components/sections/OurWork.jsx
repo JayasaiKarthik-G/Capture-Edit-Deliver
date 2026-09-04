@@ -99,7 +99,7 @@ const OurWork = () => {
 
         {/* Category filters */}
         <div className="mt-12 sm:mt-16">
-          <div className="flex gap-2 overflow-x-auto pb-2 scrollbar-none">
+          <div className="flex flex-wrap gap-2 pb-2">
             {categories.map((category) => {
               const active = category === activeCategory
 
@@ -126,8 +126,7 @@ const OurWork = () => {
         {/* Reel grid */}
         <div className="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:mt-10 lg:grid-cols-12">
           {visibleReels.map((reel, index) => {
-            const isFeatured =
-              reel.featured || index === 0
+            const isFeatured = index === 0
 
             return (
               <ReelCard
@@ -136,14 +135,14 @@ const OurWork = () => {
                 featured={isFeatured}
                 className={
                   isFeatured
-                    ? 'min-h-[560px] sm:min-h-[620px] lg:col-span-7 lg:min-h-[760px]'
+                    ? 'lg:col-span-7 lg:h-[760px]'
                     : index === 1
-                      ? 'min-h-[400px] sm:min-h-[480px] lg:col-span-5 lg:min-h-[560px]'
+                      ? 'lg:col-span-5 lg:h-[560px]'
                       : index === 2
-                        ? 'min-h-[400px] sm:min-h-[480px] lg:col-span-5'
+                        ? 'lg:col-span-5 lg:h-[560px]'
                         : index === 3
-                          ? 'min-h-[400px] sm:min-h-[480px] lg:col-span-7'
-                          : 'min-h-[400px] sm:min-h-[480px] lg:col-span-4'
+                          ? 'lg:col-span-7 lg:h-[560px]'
+                          : 'lg:col-span-4 lg:h-[520px]'
                 }
               />
             )
