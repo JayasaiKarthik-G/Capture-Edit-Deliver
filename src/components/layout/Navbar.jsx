@@ -99,12 +99,17 @@ const Navbar = () => {
             className="group flex items-center gap-3 text-left"
             aria-label="Go to CED home"
           >
-            {/* Logo */}
-            <img
-              src="/images/ced-logo.png"
-              alt="CED — Capture Edit Deliver"
-              className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.03] sm:h-11"
-            />
+            <div className="flex h-12 w-12 items-center justify-center rounded-full border border-[#c7a76c]/50 bg-[#0a100d]">
+                {/* <span className="font-[Montserrat] text-base font-black text-[#c7a76c]">
+                  CED
+                </span> */}
+                {/* Logo */}
+                <img
+                  src="/images/ced-logo.png"
+                  alt="CED — Capture Edit Deliver"
+                  className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.03] sm:h-11"
+                />
+              </div>
 
             {/* Desktop Brand Text */}
             <span className="hidden sm:block">

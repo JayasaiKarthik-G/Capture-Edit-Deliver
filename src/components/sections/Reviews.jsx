@@ -263,7 +263,7 @@ const Reviews = () => {
         </div>
 
         {/* Bottom statement */}
-        <div className="mt-14 border-t border-white/10 pt-12 sm:mt-20 sm:pt-16">
+        <div className="mt-14 border-t border-white/10 pt-12 sm:mt-20 sm:pt-12">
           <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
             <div>
               <p className="mb-5 text-[9px] font-bold uppercase tracking-[0.3em] text-[#c7a76c]">
@@ -301,7 +301,7 @@ const Reviews = () => {
           </span>
 
           <span className="font-mono text-[9px] tracking-[0.2em] text-white/20">
-            05 / 07
+            06 / 07
           </span>
         </div>
       </div>

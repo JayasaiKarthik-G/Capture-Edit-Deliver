@@ -283,7 +283,7 @@ const OurWork = () => {
             </span>
 
             <span className="text-[9px] font-bold uppercase tracking-[0.25em] text-white/25">
-              From real life → to reels
+              Moments → made to rewatch
             </span>
           </div>
 

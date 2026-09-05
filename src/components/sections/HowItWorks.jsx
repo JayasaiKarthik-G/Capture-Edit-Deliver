@@ -302,7 +302,7 @@ const HowItWorks = () => {
             </div>
 
             <span className="text-[9px] font-bold uppercase tracking-[0.25em] text-white/30">
-              From real life → to reels
+              From booking → to delivery
             </span>
           </div>
 

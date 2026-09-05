@@ -34,8 +34,8 @@ const clients = [
   },
   {
     id: '07',
-    name: 'Elegance by Sravanthi',
-    category: 'Boutique Content & Visuals',
+    name: 'Play ON by Hasten',
+    category: 'Sport and recreation',
   },
   {
     id: '08',
@@ -46,6 +46,21 @@ const clients = [
     id: '09',
     name: 'Saisho Cafe',
     category: 'Café Content & Social Media',
+  },
+  {
+    id: '10',
+    name: 'Tavaro Resorts',
+    category: 'Hotel resort',
+  },
+  {
+    id: '11',
+    name: 'Prathammalik Auto Matrix',
+    category: 'Dealer and Service Partner for Tata Motors',
+  },
+  {
+    id: '12',
+    name: 'Datailing Daddy',
+    category: 'Vehicle detailing service',
   },
 ]
 

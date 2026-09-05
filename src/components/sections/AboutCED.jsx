@@ -20,10 +20,6 @@ const AboutCED = () => {
               About CED
             </span>
           </div>
-
-          <span className="hidden font-mono text-[10px] tracking-[0.2em] text-white/20 sm:block">
-            01 / 07
-          </span>
         </div>
 
         {/* Main grid */}
@@ -116,7 +112,7 @@ const AboutCED = () => {
         </div>
 
         {/* Brand statement */}
-        <div className="mt-20 border-t border-white/10 pt-10 sm:mt-28 sm:pt-12">
+        <div className="mt-14 border-t border-white/10 pt-10 sm:mt-20 sm:pt-12">
           <div className="flex flex-col gap-7 md:flex-row md:items-end md:justify-between">
             
             <div>
@@ -144,6 +140,27 @@ const AboutCED = () => {
               </span>
             </a>
           </div>
+        </div>
+
+        {/* Section footer */}
+        <div className="mt-14 flex items-center justify-between border-t border-white/10 pt-8">
+          <div className="flex items-center gap-3">
+            <span className="flex h-7 w-7 items-center justify-center rounded-full border border-white/10">
+              <Play
+                size={10}
+                fill="currentColor"
+                className="text-[#c7a76c]"
+              />
+            </span>
+
+            <span className="text-[9px] font-bold uppercase tracking-[0.25em] text-white/25">
+              From real life → to reels
+            </span>
+          </div>
+
+          <span className="font-mono text-[9px] tracking-[0.2em] text-white/20">
+            01 / 08
+          </span>
         </div>
       </div>
     </Section>

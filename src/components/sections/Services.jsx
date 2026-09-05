@@ -1,4 +1,8 @@
-import { ArrowDownRight } from 'lucide-react'
+import { 
+  ArrowUpRight,
+  ArrowDownRight,
+  Play, 
+} from 'lucide-react'
 import Section from '../common/Section'
 import ServiceCard from '../common/ServiceCard'
 import { services } from '../../data/services'
@@ -98,28 +102,59 @@ const Services = () => {
         </div>
 
         {/* Bottom statement */}
-        <div className="mt-12 border-t border-white/10 pt-8 sm:mt-16 sm:pt-10">
-          <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
-            <p className="max-w-xl font-[Montserrat] text-xl font-bold uppercase leading-tight tracking-[-0.025em] text-white/70 sm:text-2xl">
-              One event.
-              <br />
-              Countless moments.
-              <br />
-              <span className="text-[#c7a76c]">
-                One beautiful reel.
-              </span>
-            </p>
-
-            <div className="text-left sm:text-right">
-              <p className="text-[9px] font-bold uppercase tracking-[0.25em] text-white/25">
-                CED — Capture Edit Deliver
+        <div className="mt-14 border-t border-white/10 pt-12 sm:mt-20 sm:pt-16">
+          <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
+            <div>
+              <p className="mb-5 text-[9px] font-bold uppercase tracking-[0.3em] text-[#c7a76c]">
+                The CED approach
               </p>
 
-              <p className="mt-2 text-xs text-white/35">
-                Your moment. Our lens. Your story.
-              </p>
+              <h3 className="max-w-5xl font-[Montserrat] text-3xl font-black uppercase leading-[0.9] tracking-[-0.045em] sm:text-4xl md:text-5xl lg:text-6xl">
+                One event.
+                <br />
+                <span className="text-white/30">
+                  Countless moments.
+                </span>
+                <br />
+                <span className="text-[#c7a76c]">
+                  One beautiful reel.
+                </span>
+              </h3>
             </div>
+
+            <a
+              href="#contact"
+              className="group inline-flex shrink-0 items-center gap-3 text-xs font-bold uppercase tracking-[0.15em] text-white/60 transition-colors hover:text-white"
+            >
+              Book Your Reel
+
+              <span className="flex h-9 w-9 items-center justify-center rounded-full border border-white/15 transition-all duration-300 group-hover:border-[#c7a76c]/60 group-hover:bg-[#c7a76c] group-hover:text-[#050706]">
+                <ArrowUpRight size={15} />
+              </span>
+            </a>
+
           </div>
+        </div>
+
+        {/* Section footer */}
+        <div className="mt-14 flex items-center justify-between border-t border-white/10 pt-8">
+          <div className="flex items-center gap-3">
+            <span className="flex h-7 w-7 items-center justify-center rounded-full border border-white/10">
+              <Play
+                size={10}
+                fill="currentColor"
+                className="text-[#c7a76c]"
+              />
+            </span>
+
+            <span className="text-[9px] font-bold uppercase tracking-[0.25em] text-white/25">
+              Your moment. Our lens. Your story.
+            </span>
+          </div>
+
+          <span className="font-mono text-[9px] tracking-[0.2em] text-white/20">
+            04 / 08
+          </span>
         </div>
       </div>
     </Section>

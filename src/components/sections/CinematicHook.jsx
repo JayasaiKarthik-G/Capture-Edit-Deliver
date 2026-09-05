@@ -53,7 +53,7 @@ const CinematicHook = () => {
           </div>
 
           {/* Main statement */}
-          <h2 className="mx-auto max-w-6xl font-[Montserrat] text-[clamp(3rem,10vw,8.5rem)] font-black uppercase leading-[0.82] tracking-[-0.07em]">
+          <h2 className="mx-auto max-w-6xl font-[Montserrat] text-[clamp(2.5rem,6vw,5.5rem)] font-black uppercase leading-[0.82] tracking-[-0.07em]">
             <span className="block text-white">
               Your phone has
             </span>

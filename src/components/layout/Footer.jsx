@@ -62,7 +62,7 @@ const Footer = () => {
                 Capture • Edit • Deliver
               </p>
 
-              <h2 className="font-[Montserrat] text-[clamp(3.2rem,8vw,7.5rem)] font-black uppercase leading-[0.82] tracking-[-0.07em]">
+              <h2 className="font-[Montserrat] text-[clamp(2.5rem,6vw,5.5rem)] font-black uppercase leading-[0.82] tracking-[-0.07em]">
                 <span className="block text-white">
                   Make the
                 </span>
@@ -102,9 +102,15 @@ const Footer = () => {
               className="inline-flex items-center gap-3"
             >
               <div className="flex h-12 w-12 items-center justify-center rounded-full border border-[#c7a76c]/50 bg-[#0a100d]">
-                <span className="font-[Montserrat] text-base font-black text-[#c7a76c]">
-                  C
-                </span>
+                {/* <span className="font-[Montserrat] text-base font-black text-[#c7a76c]">
+                  CED
+                </span> */}
+                {/* Logo */}
+                <img
+                  src="/images/ced-logo.png"
+                  alt="CED — Capture Edit Deliver"
+                  className="h-10 w-auto object-contain transition-transform duration-300 group-hover:scale-[1.03] sm:h-11"
+                />
               </div>
 
               <div>
@@ -113,7 +119,7 @@ const Footer = () => {
                 </p>
 
                 <p className="mt-1 text-[8px] font-semibold uppercase tracking-[0.2em] text-white/30">
-                  Capture Edit Deliver
+                  Capture • Edit • Deliver
                 </p>
               </div>
             </a>
