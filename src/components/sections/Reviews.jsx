@@ -8,7 +8,7 @@ const Reviews = () => {
   return (
     <Section
       id="reviews"
-      className="relative border-t border-white/5 py-24 sm:py-32 lg:py-40"
+      className="relative border-t border-white/5 py-16 sm:py-24 lg:py-28"
     >
       {/* Ambient background */}
       <div className="pointer-events-none absolute -left-48 top-20 h-[500px] w-[500px] rounded-full bg-[#183b2a]/20 blur-[160px]" />
@@ -27,7 +27,7 @@ const Reviews = () => {
               </span>
             </div>
 
-            <h2 className="max-w-5xl font-[Montserrat] text-[clamp(3rem,8vw,7rem)] font-black uppercase leading-[0.84] tracking-[-0.06em]">
+            <h2 className="max-w-5xl font-[Montserrat] text-[clamp(2.5rem,6vw,5.5rem)] font-black uppercase leading-[0.84] tracking-[-0.06em]">
               Don't take
               <br />
               <span className="text-white/35">
@@ -50,13 +50,13 @@ const Reviews = () => {
         </div>
 
         {/* Google rating */}
-        <div className="mt-12 overflow-hidden rounded-[2rem] border border-white/10 bg-[#0a100d] sm:mt-16">
+        <div className="mt-10 overflow-hidden rounded-[2rem] border border-white/10 bg-[#0a100d] sm:mt-12">
           <div className="relative p-6 sm:p-8 lg:p-10">
             <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full bg-[#c7a76c]/[0.05] blur-[100px]" />
 
             <div className="relative flex flex-col gap-8 md:flex-row md:items-center md:justify-between">
               <div className="flex items-center gap-5">
-                <div className="flex h-14 w-14 shrink-0 items-center justify-center rounded-2xl border border-[#c7a76c]/30 bg-[#c7a76c]/[0.06]">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl border border-[#c7a76c]/30 bg-[#c7a76c]/[0.06]">
                   <span className="font-[Montserrat] text-2xl font-black text-[#c7a76c]">
                     G
                   </span>
@@ -263,7 +263,7 @@ const Reviews = () => {
         </div>
 
         {/* Bottom statement */}
-        <div className="mt-20 border-t border-white/10 pt-12 sm:mt-28 sm:pt-16">
+        <div className="mt-14 border-t border-white/10 pt-12 sm:mt-20 sm:pt-16">
           <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
             <div>
               <p className="mb-5 text-[9px] font-bold uppercase tracking-[0.3em] text-[#c7a76c]">

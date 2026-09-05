@@ -4,6 +4,7 @@ import AboutCED from './components/sections/AboutCED'
 import HowItWorks from './components/sections/HowItWorks'
 import OurWork from './components/sections/OurWork'
 import Services from './components/sections/Services'
+import Clients from './components/sections/Clients'
 import CinematicHook from './components/sections/CinematicHook'
 import Reviews from './components/sections/Reviews'
 // import Instagram from './components/sections/Instagram'
@@ -25,6 +26,8 @@ function App() {
       <OurWork />
 
       <Services />
+
+      <Clients />
 
       <CinematicHook />
 

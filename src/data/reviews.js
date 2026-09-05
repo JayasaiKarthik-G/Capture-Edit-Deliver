@@ -21,7 +21,7 @@ export const reviews = [
   },
   {
     id: 'review-03',
-    name: 'Madhuri Band',
+    name: 'Madhurima Band',
     rating: 5,
     text: 'Amazing experience with CED! The Reel was captured beautifully and delivered instantly. The quality, creativity, and attention to detail were outstanding. Highly recommended! 👌✨',
     date: '5 months ago',

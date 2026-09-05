@@ -48,7 +48,7 @@ const Hero = () => {
           </div>
 
           {/* Main Heading */}
-          <h1 className="font-[Montserrat] text-[clamp(3.5rem,13vw,9rem)] font-black uppercase leading-[0.84] tracking-[-0.065em]">
+          <h1 className="font-[Montserrat] text-[clamp(2.5rem,6vw,5.5rem)] font-black uppercase leading-[0.84] tracking-[-0.065em]">
             <span className="block text-white">
               {hero.title[0]}
             </span>

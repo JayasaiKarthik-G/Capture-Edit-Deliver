@@ -43,7 +43,7 @@ const OurWork = () => {
   return (
     <Section
       id="work"
-      className="relative border-t border-white/5 py-24 sm:py-32 lg:py-40"
+      className="relative border-t border-white/5 py-16 sm:py-24 lg:py-28"
     >
       {/* Ambient background */}
       <div className="pointer-events-none absolute -right-48 top-20 h-[500px] w-[500px] rounded-full bg-[#183b2a]/20 blur-[160px]" />
@@ -62,7 +62,7 @@ const OurWork = () => {
               </span>
             </div>
 
-            <h2 className="max-w-5xl font-[Montserrat] text-[clamp(3rem,8vw,7rem)] font-black uppercase leading-[0.84] tracking-[-0.06em]">
+            <h2 className="max-w-5xl font-[Montserrat] text-[clamp(2.5rem,6vw,5.5rem)] font-black uppercase leading-[0.84] tracking-[-0.06em]">
               Moments
               <br />
               <span className="text-white/35">
@@ -185,7 +185,7 @@ const OurWork = () => {
         )}
 
         {/* Instagram CTA */}
-        <div className="mt-16 overflow-hidden rounded-[2rem] border border-white/10 bg-[#0a100d] sm:mt-20">
+        <div className="mt-12 overflow-hidden rounded-[2rem] border border-white/10 bg-[#0a100d] sm:mt-16">
           <div className="relative px-6 py-10 sm:px-10 sm:py-12 lg:px-14 lg:py-14">
             {/* Decorative background */}
             <div className="pointer-events-none absolute -right-20 -top-20 h-64 w-64 rounded-full border border-[#c7a76c]/10" />
@@ -240,7 +240,7 @@ const OurWork = () => {
         </div>
 
         {/* Bottom statement */}
-        <div className="mt-20 border-t border-white/10 pt-12 sm:mt-28 sm:pt-16">
+        <div className="mt-14 border-t border-white/10 pt-12 sm:mt-20 sm:pt-16">
           <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
             <div>
               <p className="mb-5 text-[9px] font-bold uppercase tracking-[0.3em] text-[#c7a76c]">

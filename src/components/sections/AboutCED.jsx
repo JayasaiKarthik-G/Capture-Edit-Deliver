@@ -5,7 +5,7 @@ const AboutCED = () => {
   return (
     <Section
       id="about"
-      className="relative border-t border-white/5 py-24 sm:py-32 lg:py-40"
+      className="relative border-t border-white/5 py-16 sm:py-24 lg:py-28"
     >
       {/* Ambient glow */}
       <div className="pointer-events-none absolute -left-40 top-20 h-80 w-80 rounded-full bg-[#183b2a]/20 blur-[120px]" />
@@ -31,7 +31,7 @@ const AboutCED = () => {
           
           {/* Left content */}
           <div>
-            <h2 className="font-[Montserrat] text-[clamp(3.2rem,9vw,7.5rem)] font-black uppercase leading-[0.82] tracking-[-0.065em]">
+            <h2 className="font-[Montserrat] text-[clamp(2.5rem,6vw,5.5rem)] font-black uppercase leading-[0.82] tracking-[-0.065em]">
               <span className="block">Capture.</span>
 
               <span className="block text-white/40">Edit.</span>

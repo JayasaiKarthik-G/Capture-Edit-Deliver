@@ -24,7 +24,7 @@ const Contact = () => {
   return (
     <Section
       id="contact"
-      className="relative overflow-hidden border-t border-white/5 py-24 sm:py-32 lg:py-40"
+      className="relative overflow-hidden border-t border-white/5 py-16 sm:py-24 lg:py-28"
     >
       {/* Background atmosphere */}
       <div className="pointer-events-none absolute -left-40 top-20 h-[500px] w-[500px] rounded-full bg-[#183b2a]/25 blur-[160px]" />
@@ -43,7 +43,7 @@ const Contact = () => {
               </span>
             </div>
 
-            <h2 className="max-w-6xl font-[Montserrat] text-[clamp(3rem,8vw,7rem)] font-black uppercase leading-[0.82] tracking-[-0.065em]">
+            <h2 className="max-w-6xl font-[Montserrat] text-[clamp(2.5rem,6vw,5.5rem)] font-black uppercase leading-[0.82] tracking-[-0.065em]">
               Your next
               <br />
               <span className="text-white/35">
@@ -65,7 +65,7 @@ const Contact = () => {
         </div>
 
         {/* Main booking card */}
-        <div className="relative mt-12 overflow-hidden rounded-[2rem] border border-[#c7a76c]/25 bg-[#0a100d] sm:mt-16">
+        <div className="relative mt-10 overflow-hidden rounded-[2rem] border border-[#c7a76c]/25 bg-[#0a100d] sm:mt-12">
           {/* Decorative elements */}
           <div className="pointer-events-none absolute -right-20 -top-20 h-80 w-80 rounded-full bg-[#c7a76c]/[0.06] blur-[100px]" />
 

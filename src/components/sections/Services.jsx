@@ -7,7 +7,7 @@ const Services = () => {
   return (
     <Section
       id="services"
-      className="relative border-t border-white/5 py-24 sm:py-32 lg:py-40"
+      className="relative border-t border-white/5 py-16 sm:py-24 lg:py-28"
     >
       {/* Background glow */}
       <div className="pointer-events-none absolute -right-40 top-20 h-96 w-96 rounded-full bg-[#183b2a]/20 blur-[140px]" />
@@ -25,7 +25,7 @@ const Services = () => {
               </span>
             </div>
 
-            <h2 className="max-w-5xl font-[Montserrat] text-[clamp(3rem,8vw,7rem)] font-black uppercase leading-[0.84] tracking-[-0.06em]">
+            <h2 className="max-w-5xl font-[Montserrat] text-[clamp(2.5rem,6vw,5.5rem)] font-black uppercase leading-[0.84] tracking-[-0.06em]">
               Whatever the
               <br />
               <span className="text-white/40">
@@ -54,7 +54,7 @@ const Services = () => {
         </div>
 
         {/* Service Grid */}
-        <div className="mt-14 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:mt-20 lg:grid-cols-12">
+        <div className="mt-10 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:mt-14 lg:grid-cols-12">
           
           {/* Featured Wedding */}
           <ServiceCard
@@ -98,7 +98,7 @@ const Services = () => {
         </div>
 
         {/* Bottom statement */}
-        <div className="mt-16 border-t border-white/10 pt-8 sm:mt-20 sm:pt-10">
+        <div className="mt-12 border-t border-white/10 pt-8 sm:mt-16 sm:pt-10">
           <div className="flex flex-col gap-5 sm:flex-row sm:items-center sm:justify-between">
             <p className="max-w-xl font-[Montserrat] text-xl font-bold uppercase leading-tight tracking-[-0.025em] text-white/70 sm:text-2xl">
               One event.

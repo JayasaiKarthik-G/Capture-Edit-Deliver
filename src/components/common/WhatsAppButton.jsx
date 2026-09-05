@@ -30,7 +30,7 @@ const WhatsAppButton = () => {
             strokeWidth={2.5}
           />
 
-          <span>📲 Book Your Reel</span>
+          <span> Book Your Reel</span>
 
           <ArrowUpRight
             size={17}
@@ -47,7 +47,7 @@ const WhatsAppButton = () => {
           target="_blank"
           rel="noreferrer"
           aria-label="Book your reel on WhatsApp"
-          className="group relative flex h-14 w-14 items-center justify-center rounded-full border border-[#d7bd88]/40 bg-[#c7a76c] text-[#050706] shadow-[0_10px_40px_rgba(0,0,0,0.45),0_0_35px_rgba(199,167,108,0.18)] transition-all duration-300 hover:h-14 hover:w-44 hover:bg-[#d7bd88]"
+          className="group relative flex h-14 w-14 items-center justify-center rounded-full border border-[#d7bd88]/40 bg-[#c7a76c] text-[#050706] shadow-[0_10px_40px_rgba(0,0,0,0.45),0_0_35px_rgba(199,167,108,0.18)] transition-all duration-300 hover:h-14 hover:w-48 hover:bg-[#d7bd88]"
         >
           <MessageCircle
             size={21}

@@ -89,7 +89,7 @@ const HowItWorks = () => {
   return (
     <Section
       id="how-it-works"
-      className="relative border-t border-white/5 py-24 sm:py-32 lg:py-40"
+      className="relative border-t border-white/5 py-16 sm:py-24 lg:py-28"
     >
       <div ref={sectionRef} className="relative">
         {/* Ambient glow */}
@@ -108,7 +108,7 @@ const HowItWorks = () => {
               </span>
             </div>
 
-            <h2 className="max-w-5xl font-[Montserrat] text-[clamp(3rem,8vw,7rem)] font-black uppercase leading-[0.84] tracking-[-0.06em]">
+            <h2 className="max-w-5xl font-[Montserrat] text-[clamp(2.5rem,6vw,5.5rem)] font-black uppercase leading-[0.84] tracking-[-0.06em]">
               Your perfect
               <br />
               event.
@@ -141,7 +141,7 @@ const HowItWorks = () => {
         </div>
 
         {/* Timeline */}
-        <div className="relative mt-16 lg:mt-24">
+        <div className="relative mt-10 lg:mt-16">
           {/* Desktop progress line */}
           <div className="absolute bottom-0 left-[31px] top-0 hidden w-px bg-white/10 md:block">
             <div
@@ -258,7 +258,7 @@ const HowItWorks = () => {
         </div>
 
         {/* Bottom CTA */}
-        <div className="mt-16 overflow-hidden rounded-[2rem] border border-white/10 bg-[#0a100d] sm:mt-20">
+        <div className="mt-12 overflow-hidden rounded-[2rem] border border-white/10 bg-[#0a100d] sm:mt-16">
           <div className="relative px-6 py-10 sm:px-10 sm:py-12 lg:px-14 lg:py-14">
             <div className="pointer-events-none absolute right-0 top-0 h-64 w-64 rounded-full bg-[#c7a76c]/[0.05] blur-[100px]" />
 
@@ -291,7 +291,7 @@ const HowItWorks = () => {
         </div>
 
         {/* Bottom statement */}
-        <div className="mt-14 flex flex-col gap-5 border-t border-white/10 pt-8 sm:mt-16 sm:flex-row sm:items-center sm:justify-between">
+        <div className="mt-10 flex flex-col gap-5 border-t border-white/10 pt-8 sm:mt-14 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex items-center gap-3">
             <div className="flex h-8 w-8 items-center justify-center rounded-full border border-[#c7a76c]/40">
               <Play
