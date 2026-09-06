@@ -35,7 +35,7 @@ const Hero = () => {
       <div className="pointer-events-none absolute inset-0 shadow-[inset_0_0_160px_rgba(0,0,0,0.65)]" />
 
       {/* Hero Content */}
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-12 pt-32 sm:px-8 sm:pb-16 lg:px-10 lg:pb-20">
+      <div className="relative z-10 mx-auto w-full max-w-7xl px-5 pb-20 pt-32 sm:px-8 sm:pb-16 lg:px-10 lg:pb-20">
         
         <div className="max-w-5xl">
           {/* Eyebrow */}
