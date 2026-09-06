@@ -39,7 +39,7 @@ const clients = [
   },
   {
     id: '08',
-    name: 'Madhuram Etc.',
+    name: 'Madhuram Cafe',
     category: 'Brand & Social Media Content',
   },
   {
