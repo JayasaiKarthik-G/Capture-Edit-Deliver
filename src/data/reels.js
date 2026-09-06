@@ -7,7 +7,7 @@ export const reels = [
     type: 'video',
     src: '/videos/reels/reel-01.mp4',
     poster: '/images/reels/reel-01.jpg',
-    instagramUrl: '',
+    instagramUrl: 'https://www.instagram.com/reel/Dbv1aBLpfZZ/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
     featured: true,
   },
 
@@ -19,7 +19,7 @@ export const reels = [
     type: 'video',
     src: '/videos/reels/reel-02.mp4',
     poster: '/images/reels/reel-02.jpg',
-    instagramUrl: '',
+    instagramUrl: 'https://www.instagram.com/reel/DVwGGm_iYnz/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
   },
 
   {
@@ -30,7 +30,7 @@ export const reels = [
     type: 'video',
     src: '/videos/reels/reel-03.mp4',
     poster: '/images/reels/reel-03.jpg',
-    instagramUrl: '',
+    instagramUrl: 'https://www.instagram.com/reel/DQoTEPpkg7W/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
   },
 
   {
@@ -41,7 +41,7 @@ export const reels = [
     type: 'video',
     src: '/videos/reels/reel-04.mp4',
     poster: '/images/reels/reel-04.jpg',
-    instagramUrl: '',
+    instagramUrl: 'https://www.instagram.com/reel/DRYnFDikooJ/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
   },
 
   {
@@ -52,7 +52,7 @@ export const reels = [
     type: 'video',
     src: '/videos/reels/reel-05.mp4',
     poster: '/images/reels/reel-05.jpg',
-    instagramUrl: '',
+    instagramUrl: 'https://www.instagram.com/reel/DcYHDx6P6aJ/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
   },
 
   {
@@ -63,7 +63,7 @@ export const reels = [
     type: 'video',
     src: '/videos/reels/reel-06.mp4',
     poster: '/images/reels/reel-06.jpg',
-    instagramUrl: '',
+    instagramUrl: 'https://www.instagram.com/reel/DbN7gmop5ji/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
   },
 
   {
@@ -74,7 +74,7 @@ export const reels = [
     type: 'video',
     src: '/videos/reels/reel-07.mp4',
     poster: '/images/reels/reel-07.jpg',
-    instagramUrl: '',
+    instagramUrl: 'https://www.instagram.com/reel/DbVigCCTeVF/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
   },
 
   {
@@ -85,6 +85,6 @@ export const reels = [
     type: 'video',
     src: '/videos/reels/reel-08.mp4',
     poster: '/images/reels/reel-08.jpg',
-    instagramUrl: '',
+    instagramUrl: 'https://www.instagram.com/reel/DaFR3VHpb8A/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
   },
 ]

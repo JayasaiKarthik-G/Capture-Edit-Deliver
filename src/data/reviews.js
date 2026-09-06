@@ -56,6 +56,6 @@ export const reviews = [
 
 export const reviewSummary = {
   rating: 5,
-  totalReviews: 5,
+  totalReviews: 6,
   googleUrl: 'https://share.google/lt7VkbDcMPUw91jdO',
 }

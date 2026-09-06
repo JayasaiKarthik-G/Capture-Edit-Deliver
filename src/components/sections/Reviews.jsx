@@ -68,7 +68,7 @@ const Reviews = () => {
                   </p>
 
                   {hasReviews ? (
-                    <div className="mt-2 flex items-center gap-2">
+                    <div className="mt-2 flex items-center gap-3">
                       <span className="font-[Montserrat] text-2xl font-black">
                         {reviewSummary.rating.toFixed(1)}
                       </span>

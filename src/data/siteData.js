@@ -20,7 +20,7 @@ export const siteData = {
 
   hero: {
     video: '/videos/ced-hero.mp4',
-    poster: '/images/ced-hero-poster.jpg',
+    poster: '/images/ced-hero-poster.png',
     eyebrow: 'CAPTURE • EDIT • DELIVER',
     title: [
       'YOUR MOMENTS',
