@@ -1,0 +1,89 @@
+export const reels = [
+  {
+    id: 'reel-01',
+    number: '01',
+    title: 'A Moment Worth Rewatching',
+    category: 'Weddings',
+    type: 'video',
+    src: '/videos/reels/reel-01.mp4',
+    poster: '/images/reels/reel-01.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/Dbv1aBLpfZZ/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
+  },
+
+  {
+    id: 'reel-02',
+    number: '02',
+    title: 'The Celebration',
+    category: 'Birthdays',
+    type: 'video',
+    src: '/videos/reels/reel-02.mp4',
+    poster: '/images/reels/reel-02.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/DVwGGm_iYnz/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
+  },
+
+  {
+    id: 'reel-03',
+    number: '03',
+    title: 'Forever Starts Here',
+    category: 'Engagements',
+    type: 'video',
+    src: '/videos/reels/reel-03.mp4',
+    poster: '/images/reels/reel-03.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/DQoTEPpkg7W/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
+  },
+
+  {
+    id: 'reel-04',
+    number: '04',
+    title: 'Good Food. Good Energy.',
+    category: 'Cafés',
+    type: 'video',
+    src: '/videos/reels/reel-04.mp4',
+    poster: '/images/reels/reel-04.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/DRYnFDikooJ/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
+  },
+
+  {
+    id: 'reel-05',
+    number: '05',
+    title: 'The New Beginning',
+    category: 'Car Deliveries',
+    type: 'video',
+    src: '/videos/reels/reel-05.mp4',
+    poster: '/images/reels/reel-05.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/DcYHDx6P6aJ/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
+  },
+
+  {
+    id: 'reel-06',
+    number: '06',
+    title: 'Built to Be Seen',
+    category: 'Brands',
+    type: 'video',
+    src: '/videos/reels/reel-06.mp4',
+    poster: '/images/reels/reel-06.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/DbN7gmop5ji/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
+  },
+
+  {
+    id: 'reel-07',
+    number: '07',
+    title: 'People. Energy. Moments.',
+    category: 'Events',
+    type: 'video',
+    src: '/videos/reels/reel-07.mp4',
+    poster: '/images/reels/reel-07.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/DbVigCCTeVF/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
+  },
+
+  {
+    id: 'reel-08',
+    number: '08',
+    title: 'Made to Stand Out',
+    category: 'Products',
+    type: 'video',
+    src: '/videos/reels/reel-08.mp4',
+    poster: '/images/reels/reel-08.jpg',
+    instagramUrl: 'https://www.instagram.com/reel/DaFR3VHpb8A/?utm_source=ig_web_copy_link&stkn=MzRlODBiNWFlZA==',
+  },
+]
