@@ -108,7 +108,7 @@ ${form.details || 'No additional details provided.'}
   return (
     <Section
       id="contact"
-      className="relative overflow-hidden bg-[#050505] py-20 lg:py-20"
+      className="relative overflow-hidden bg-[#050505] py-12 lg:py-20"
     >
       <div className="pointer-events-none absolute right-[-180px] top-[10%] h-[500px] w-[500px] rounded-full bg-[#ff0038]/10 blur-[160px]" />
 
@@ -358,7 +358,7 @@ ${form.details || 'No additional details provided.'}
           </form>
 
           {/* Contact information */}
-          <div className="flex flex-col gap-6">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-1 lg:gap-6">
             <a
               href={`https://wa.me/${siteData.contact.whatsappNumber}`}
               target="_blank"

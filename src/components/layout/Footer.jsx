@@ -32,10 +32,10 @@ const Footer = () => {
       {/* Atmospheric glow */}
       <div className="pointer-events-none absolute left-1/2 top-[35%] h-[220px] w-[500px] -translate-x-1/2 rounded-full bg-[#ff0038]/[0.035] blur-[120px]" />
       
-      <div className="ced-container relative pt-12 pb-20 sm:pt-12 sm:pb-20 lg:pt-20 lg:pb-20">
+      <div className="ced-container relative py-20 lg:py-20">
 
         {/* Main footer */}
-        <div className="grid gap-14 lg:grid-cols-[1.4fr_0.6fr_0.6fr]">
+        <div className="grid gap-12 md:grid-cols-[1.4fr_0.6fr_0.6fr] lg:gap-14">
 
           {/* Brand */}
           <div>

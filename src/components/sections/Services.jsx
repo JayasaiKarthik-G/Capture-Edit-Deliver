@@ -13,7 +13,8 @@ const Services = () => {
         overflow-hidden
         border-b
         border-white/5
-        py-20
+        py-12
+        lg:py-20
       "
     >
       {/* Ambient red */}

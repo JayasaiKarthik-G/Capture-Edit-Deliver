@@ -10,6 +10,7 @@ const CinematicHook = () => {
         w-full
         overflow-hidden
         bg-[#050505]
+        py-12
       "
     >
       <div className="relative min-h-[760px] w-full overflow-hidden">

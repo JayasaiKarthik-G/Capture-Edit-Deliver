@@ -6,61 +6,73 @@ const clients = [
     number: '01',
     name: 'FNF',
     type: 'Brand & Content Partner',
+    logo: '/images/clients/fnf.png',
   },
   {
     number: '02',
     name: 'Srestha Digital Media',
     type: 'Digital Media Partner',
+    logo: '/images/clients/srestha-digital-media.png',
   },
   {
     number: '03',
     name: 'See You Cafe',
     type: 'Café Content & Social Media',
+    logo: '/images/clients/see-you-cafe.png',
   },
   {
     number: '04',
     name: 'Oasis The Cafe',
     type: 'Café Content & Social Media',
+    logo: '/images/clients/oasis-the-cafe.png',
   },
   {
     number: '05',
     name: 'Studios Samkshika',
     type: 'Boutique Content & Visuals',
+    logo: '/images/clients/studios-samkshika.png',
   },
   {
     number: '06',
     name: 'Label Srianvi',
     type: 'Boutique Content & Visuals',
+    logo: '/images/clients/label-srianvi.png',
   },
   {
     number: '07',
     name: 'Play ON by Hasten',
     type: 'Sport & Recreation',
+    logo: '/images/clients/play-on.png',
   },
   {
     number: '08',
     name: 'Madhuram Cafe',
     type: 'Brand & Social Media Content',
+    logo: '/images/clients/madhuram-cafe.png',
   },
   {
     number: '09',
     name: 'Saisho Cafe',
     type: 'Café Content & Social Media',
+    logo: '/images/clients/saisho-cafe.png',
   },
   {
     number: '10',
     name: 'Tavaro Resorts',
     type: 'Hotel & Resort',
+    logo: '/images/clients/tavaro-resorts.png',
   },
   {
     number: '11',
     name: 'Prathammalik Auto Matrix',
     type: 'Tata Motors Dealer & Service Partner',
+    logo: '/images/clients/prathammalik-auto-matrix.png',
   },
   {
     number: '12',
     name: 'Datailing Daddy',
     type: 'Vehicle Detailing Service',
+    logo: '/images/clients/detailing-daddy.png',
   },
 ]
 
@@ -68,7 +80,7 @@ const Clients = () => {
   return (
     <Section
       id="clients"
-      className="relative overflow-hidden bg-[#050505] py-20 lg:py-20"
+      className="relative overflow-hidden bg-[#050505] py-12 lg:py-20"
     >
       {/* Atmospheric glow */}
       <div className="pointer-events-none absolute right-[-180px] top-[15%] h-[450px] w-[450px] rounded-full bg-[#ff0038]/10 blur-[150px]" />
@@ -157,22 +169,34 @@ const Clients = () => {
                 <span
                   className="
                     flex
-                    h-9
-                    w-9
+                    h-16
+                    w-16
                     items-center
                     justify-center
                     rounded-full
-                    border
-                    border-white/10
-                    text-white/25
+                    bg-white/[0.02]
+                    p-2
                     transition-all
                     duration-300
                     group-hover:border-[#ff0038]/40
-                    group-hover:bg-[#ff0038]
-                    group-hover:text-white
+                    group-hover:bg-[#ff0038]/10
                   "
                 >
-                  <ArrowUpRight size={15} />
+                  <img
+                    src={client.logo}
+                    alt={`${client.name} logo`}
+                    className="
+                      max-h-full
+                      max-w-full
+                      object-contain
+                      opacity-70
+                      grayscale
+                      transition-all
+                      duration-300
+                      group-hover:opacity-100
+                      group-hover:grayscale-0
+                    "
+                  />
                 </span>
               </div>
 

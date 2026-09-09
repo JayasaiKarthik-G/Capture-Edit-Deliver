@@ -36,7 +36,7 @@ const stats = [
 
 const AboutCED = () => {
   return (
-    <Section id="about" className="relative overflow-hidden bg-[#050505] py-12 lg:pb-16 lg:py-20">
+    <Section id="about" className="relative overflow-hidden bg-[#050505] py-12 lg:py-20">
       <div className="pointer-events-none absolute left-[-180px] top-[15%] h-[420px] w-[420px] rounded-full bg-[#ff0038]/10 blur-[140px]" />
       <div className="pointer-events-none absolute bottom-[-180px] right-[-120px] h-[420px] w-[420px] rounded-full bg-[#ff0038]/[0.07] blur-[140px]" />
 

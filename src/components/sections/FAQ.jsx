@@ -39,7 +39,7 @@ const FAQ = () => {
   const [active, setActive] = useState(0)
 
   return (
-    <Section id="faq" className="relative overflow-hidden py-20 bg-[#050505] lg:py-20">
+    <Section id="faq" className="relative overflow-hidden py-12 bg-[#050505] lg:py-20">
       <div className="pointer-events-none absolute left-[-180px] top-1/2 h-[400px] w-[400px] -translate-y-1/2 rounded-full bg-[#ff0038]/[0.07] blur-[140px]" />
 
       <div className="relative">

@@ -38,7 +38,7 @@ const HowItWorks = () => {
   return (
     <Section
       id="how-it-works"
-      className="relative overflow-hidden border-b border-white/5 py-16 sm:py-20 lg:py-20"
+      className="relative overflow-hidden border-b border-white/5 py-12 lg:py-20"
     >
       {/* Ambient red glow */}
       <div

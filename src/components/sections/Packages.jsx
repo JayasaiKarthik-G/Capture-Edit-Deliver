@@ -63,7 +63,7 @@ const Packages = () => {
   return (
     <Section
       id="packages"
-      className="relative overflow-hidden border-t border-white/5 py-20 sm:py-16 lg:py-20"
+      className="relative overflow-hidden border-t border-white/5 py-12 lg:py-20"
     >
       {/* Ambient glow */}
       <div

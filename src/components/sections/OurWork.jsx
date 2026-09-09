@@ -131,7 +131,8 @@ const OurWork = () => {
         relative
         overflow-hidden
         bg-[#050505]
-        py-20
+        py-12
+        lg:py-20
       "
     >
       {/* Red atmospheric glow */}
